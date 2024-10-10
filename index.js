@@ -8,6 +8,7 @@ import'./src/database/dbConection.js'
 import ruta from './src/routes/producto.routes.js';
 
 
+
 // 1.configurar un puerto
 const app=express();
 

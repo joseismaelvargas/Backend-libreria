@@ -80,14 +80,20 @@ export const crearproducto=async (req,res)=>{
      
      }
  }
-export const obtenerProducto=async(req,res)=>{
- try{
- 
- }catch(error){
-  console.error(error)
-     res.status(500).json({
-      mensaje:'Ocurrio un error no se pudo esditar el producto'
-    });
+// export const obtenerProducto=async(req,res)=>{
+//  try{
+//   const productobuscado=await Producto.findById(req.params.id)
+//   if(!productobuscado){
+//     return res.status(404).json({mensaje:'producto no encontrado'})
+  
+//   }
+
+//   res.status(200).json({mensaje:'se pudo Encontrar el producto'})
+//  }catch(error){
+//   console.error(error)
+//      res.status(500).json({
+//       mensaje:'Ocurrio un error no se pudo esditar el producto'
+//     });
      
- }
-};
+//  }
+// };
