@@ -1,6 +1,6 @@
 import { Router } from "express";// *importamos la Routes Express
 // nos nos olvidemos que termine con (.js)
-import { prueba,crearproducto,listaProducto,editarProducto, deleteProducto } from "../controllers/productos.controlers.js";
+import {crearproducto,listaProducto,editarProducto, deleteProducto } from "../controllers/productos.controlers.js";
 
 
 const ruta=Router();
