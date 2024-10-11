@@ -5,7 +5,7 @@ import { prueba,crearproducto,listaProducto,editarProducto, deleteProducto } fro
 
 const ruta=Router();
 ruta.route('/prueba').get(prueba)
-ruta.route('/productos').post(crearproducto)
+// ruta.route('/productos').post(crearproducto)
 ruta.route('/productolista').post(crearproducto).get(listaProducto)
 
 ruta.route('/productos/:id').put(editarProducto).delete(deleteProducto)
